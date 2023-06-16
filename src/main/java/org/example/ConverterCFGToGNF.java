@@ -37,6 +37,8 @@ public class ConverterCFGToGNF {
                 if(entrada.getKey().equals("A3") && value.equals("bbA3")){
                     newValues.add("bB1A3");
                     statiWithinTeminalCfg.put(entrada.getKey(), newValues);
+                } else {
+                    newValues.add(value);
                 }
             }
         }
